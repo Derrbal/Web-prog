@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ua">
+ 	<head>
+ 		<link href="Style.css" rel="stylesheet">
+  		<meta charset="utf-8">
+  		<title>Форма</title>
+ 	</head>
+	<body>
+  		<header>
+  			<img src="Матеріали/opacity-logo1.png" width="80px" align="left" alt="logo">
+  			<p class="head">Національний Технічний Університет України «Київський Політехнічний Інститут» </br><span class="head">Фізико-Технічний Інститут</span></p>
+		</header>
+		<main>
+			<div class="o"> 
+				<h2 align="center">Форма реєстрації випускника</h2>
+			</div>
+			<div class="bg"> 
+				<div class="o">
+					<form>
+						<p><strong>ПІБ: </strong>
+							<input class="txt" required placeholder="Введіть дані" type="text" name="pib">
+						</p> 
+						<p><strong>Стать: </strong><input required type="radio" name="s">Чоловік <input required type="radio" name="s">Жінка <input required type="radio" name="s">Невідомо</p>
+						<p><strong>Наукова степінь: </strong><input required type="radio" name="n">Бакалавр <input required type="radio" name="n">Магістр <input required type="radio" name="n">Аспірант</p>
+						<p><strong>Рік випуску: </strong>
+							<input class="txt" required placeholder="Введіть дані" type="text" name="year">
+						</p> 
+						<p>
+							<strong>Коротко про Вас та Ваші досягнення: </strong></br>
+							<textarea placeholder="Введіть дані" required></textarea>
+						</p>
+						<p><strong>Ваше фото: </strong><input type="file" name="photo" accept="image/*"></p>
+						<p align="right"><button type="submit">Зареєструватись</button> <button type="reset">Оновити</button></p>
+					</form>
+				<div>
+			</div>
+		</main>
+		<div class="space">
+			
+		</div>
+	</body>
+</html>
